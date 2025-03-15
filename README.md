@@ -9,6 +9,53 @@ This project utilizes three publicly available datasets from Kaggle:
 - **Amazon Reviews**: Product review dataset, processed into **400,000 samples**.
 - **Twitter (X) Data**: Originally **1.6M tweets**, with **400,000 samples randomly selected**.
 
+- ## 📂 Data Resources & Usage
+All dataset files are hosted on **Google Drive** due to GitHub file size limitations.  
+📌 **Download all datasets here**: [Google Drive Link](https://drive.google.com/drive/folders/1yZyu8aV3b_M5zMXHt-PUO1snLfphTx9-?usp=drive_link)
+
+### **1️⃣ Raw Data (Kaggle Source)**
+**Location**: `Data Resource/`  
+**Files**:
+- `Amazon.txt` – Amazon product reviews dataset
+- `IMDB.txt` – IMDB movie reviews dataset
+- `test.ft.txt` – Additional test dataset  
+
+These are raw datasets from Kaggle. Users can download and use them **directly for new research or model training**.
+
+---
+
+### **2️⃣ Processed CSV Data**
+**Location**: `processed data.zip` (Google Drive)  
+This ZIP file contains **preprocessed CSV files**, formatted for direct use in machine learning models.  
+**Contents**:
+- `amazon.csv` – Processed Amazon reviews
+- `IMDB.csv` – Processed IMDB reviews
+- `X_50000.csv`, `X_tokenized.csv`, `X.csv` – Processed Twitter data  
+
+Users can **directly use these CSV files** to train sentiment classification models.
+
+---
+
+### **3️⃣ Tokenized & Vectorized Data**
+**Location**: `The Raw Data.zip` (Google Drive)  
+This ZIP file contains **fully tokenized and vectorized** data for sentiment analysis.  
+**Contents**:
+- TF-IDF vectorized text data
+- Word2Vec embeddings
+- FastText embeddings  
+
+These files **allow for immediate model training without extra preprocessing**.
+
+---
+
+## 📌 **How to Use the Data**
+### **Download & Extract**
+1. **Download the required dataset from [Google Drive](https://drive.google.com/drive/folders/1yZyu8aV3b_M5zMXHt-PUO1snLfphTx9-?usp=drive_link)**.
+2. **Extract the ZIP files**:
+   ```bash
+   unzip processed\ data.zip
+   unzip The\ Raw\ Data.zip
+
 ---
 
 ## 🚀 **Experiment Process**
