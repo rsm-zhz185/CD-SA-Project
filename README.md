@@ -1,17 +1,6 @@
 # **Cross-Domain Sentiment Analysis (CD-SA)**
 This repository contains the **Cross-Domain Sentiment Analysis (CD-SA) project**, where we explore various sentiment classification methods across multiple datasets (IMDB, Amazon, Twitter). The study evaluates different models, feature representations, and preprocessing strategies to improve generalization in cross-domain sentiment classification.
 
-## 📌 **Project Structure**
-CD-SA-PROJECT/      
-│── Data Resource/ # Raw unprocessed datasets    
-│── The Raw Data/ # Converted CSV files    
-│── processed data/ # Tokenized & preprocessed datasets    
-│── ipynb/ # Jupyter Notebooks for experiments     
-│── PKL/ # Trained model files (e.g., .pkl)     
-│── NLP-CD-SA_Zhutong Zhang.pdf # ACL Paper     
-│── README.md # Project documentation    
-
-
 ---
 
 ## 📊 **Datasets**
