@@ -1,0 +1,4 @@
+# Ignore the entire PKL directory (trained models)
+PKL/
+*.pkl
+
