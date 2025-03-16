@@ -18,31 +18,33 @@ All dataset files are hosted on **Google Drive** due to GitHub file size limitat
 **Files**:
 - `Amazon.txt` – Amazon product reviews dataset
 - `IMDB.txt` – IMDB movie reviews dataset
-- `test.ft.txt` – Additional test dataset  
+- `test.ft.txt` – Twiteer dataset  
 
 These are raw datasets from Kaggle. Users can download and use them **directly for new research or model training**.
 
 ---
 
 ### **2️⃣ Processed CSV Data**
-**Location**: `processed data.zip` (Google Drive)  
-This ZIP file contains **preprocessed CSV files**, formatted for direct use in machine learning models.  
+**Location**: `The Raw Data.zip` (Google Drive)  
+This ZIP file contains **preprocessed CSV files**, formatted for direct use in machine learning models.
 **Contents**:
-- `amazon.csv` – Processed Amazon reviews
-- `IMDB.csv` – Processed IMDB reviews
-- `X_50000.csv`, `X_tokenized.csv`, `X.csv` – Processed Twitter data  
+- Amazon Dataset.csv
+- IMDB Dataset.csv
+- 40w_tweets.csv (40w Twiteer data)
+- training.1600000.processed.noemoticon (The Twiteer data)
+
 
 Users can **directly use these CSV files** to train sentiment classification models.
 
 ---
 
 ### **3️⃣ Tokenized & Vectorized Data**
-**Location**: `The Raw Data.zip` (Google Drive)  
+**Location**: `processed data.zip` (Google Drive)   
 This ZIP file contains **fully tokenized and vectorized** data for sentiment analysis.  
 **Contents**:
-- TF-IDF vectorized text data
-- Word2Vec embeddings
-- FastText embeddings  
+- `amazon.csv` – Processed Amazon reviews
+- `IMDB.csv` – Processed IMDB reviews
+- `X_50000.csv`, `X_tokenized.csv`, `X.csv` – Processed Twitter data. You can use the X_50000 to test the bert model, which will be more efficient. 
 
 These files **allow for immediate model training without extra preprocessing**.
 
